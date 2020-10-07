@@ -49,6 +49,13 @@ class _HomePageState extends State<HomePage> {
     });
   }
 
+  void Clear() {
+    setState(() {
+      t1.text = "0";
+      t2.text = "0";
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -121,7 +128,7 @@ class _HomePageState extends State<HomePage> {
                     child: new Text(
                       "*",
                       style: new TextStyle(
-                        fontSize: 35,
+                        fontSize: 20,
                         color: Colors.white,
                       ),
                     ),
@@ -138,9 +145,17 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ),
                 ],
+              ),
+              new MaterialButton(
+                onPressed: Clear,
+                child: new Text(
+                  "Clear",
+                ),
+                color: Colors.greenAccent,
               )
             ],
           )),
     );
   }
 }
+
