@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/dicee-flutter/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/dicee-flutter/build" />
+      <excludeFolder url="file://$MODULE_DIR$/i-am-rich/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/i-am-rich/build" />
+      <excludeFolder url="file://$MODULE_DIR$/magic-8-ball-flutter/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/magic-8-ball-flutter/build" />
+      <excludeFolder url="file://$MODULE_DIR$/xylophone-flutter/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/xylophone-flutter/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
